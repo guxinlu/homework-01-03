@@ -1,0 +1,145 @@
+.footer {
+    width: 100%;
+    height: 138px;
+    /* 一定要有高不然background-color没法弄 */
+    padding-top: 49px;
+    padding-bottom: 66px;
+    background-color: #fff;
+}
+.footer .footer-c {
+    height: 138px;
+}
+.footer .footer-c .login-method {
+    float: left;
+    width: 313px;
+    height: 138px;
+    border-right: 1px solid #E8E8E8;
+}
+.footer .footer-c .login-method a {
+    display: block;
+    width: 180px;
+    height: 40px;
+    border: 1px solid #00B38A;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 16px;
+    color: #00B38A;
+}
+.footer .footer-c .login-method a:hover {
+    cursor: pointer;
+    background-color:  #00B38A;
+    color: #fff;
+}
+.footer .footer-c .login-method a i {
+    display: inline-block;
+    width: 12px;
+    height: 15px;
+    margin-right: 6px;
+    background: url(../limages/sprite_02.png) no-repeat -150px -220px;
+    vertical-align: middle;
+}
+.footer .footer-c .login-method a:hover i {
+    background-position: -182px -220px;
+}
+.footer .footer-c .login-method .mini:hover i {
+    background-position: -173px -54px;
+}
+.footer .footer-c .login-method .mini i {
+    width: 14px;
+    height: 14px;
+    background: url(../limages/sprite_02.png) no-repeat -215px -54px;
+}
+.footer .footer-c .login-method .mini span {
+    vertical-align: middle;
+}
+.footer .footer-c .login-method .mini {
+    position: relative;
+}
+.footer .footer-c .login-method .mini img {
+    display: none;
+    position: absolute;
+    width: 140px;
+    height:140px;
+    left: 189px;
+    -moz-box-shadow:0px 0px 5px #F9F9F9; 
+    -webkit-box-shadow:0px 0px 5px #F9F9F9; 
+    box-shadow:0px 0px 5px #F9F9F9;
+}
+.footer .footer-c .login-method .mini:hover img {
+    display:inline-block;
+}
+.footer .footer-c .login-method .other {
+    width: 183px;
+}
+.footer .footer-c .login-method .other a {
+    width: 78px;
+    height: 23px;
+    border: 0;
+    line-height: 23px;
+    color: #555555;
+}
+
+.footer .footer-c .login-method .other a:hover {
+    color: #00B38A !important;
+    background-color:  inherit;
+}
+.footer .footer-c .login-method .other .weixin {
+    float: left;
+}
+.footer .footer-c .login-method .other .weixin i {
+    float: left;
+    width: 16px;
+    height: 14px;
+    margin-top: 4px;
+    background: url(../limages/sprite_02.png) no-repeat -114px -185px;
+}
+.footer .footer-c .login-method .other .weixin:hover i {
+    background: url(../limages/sprite_02.png) no-repeat -114px -221px;
+}
+.footer .footer-c .login-method .other .weibo {
+    float: right;
+}
+.footer .footer-c .login-method .other .weibo i {
+    float: left;
+    width: 16px;
+    height: 14px;
+    margin-top: 4px;
+    background: url(../limages/sprite_02.png) no-repeat -214px -20px;
+}
+.footer .footer-c .login-method .other .weibo:hover i {
+    background: url(../limages/sprite_02.png) no-repeat -172px -20px;
+}
+
+
+
+/* right */
+.footer .footer-c .service {
+    float: right;
+    width: 756px;
+    height: 138px;
+    padding-left: 130px;
+}
+.footer .footer-c .service dl {
+    float: left;
+    margin-right: 170px;
+}
+.footer .footer-c .service .last {
+    width: 248px;
+    margin-right: 0px;
+}
+/* 还可以采用总长度除以3的形式保证最后一个yl不掉下去 */
+.footer .footer-c .service dl dt {
+    margin-bottom: 26px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #555555;
+    /* 颜色不要忘了量 */
+}
+
+.footer .footer-c .service dl dd {
+    line-height: 32px;
+}
+
+.footer .footer-c .service dl a {
+    display: block;
+}

@@ -1,0 +1,67 @@
+.copyright {
+    height: 100px;
+    background-color: #FAFAFA;
+}
+.copyright .copyright-c {
+    padding-top: 28px;
+    height: 60px;
+    line-height: 60px;
+    /* line-height别忘了，文字垂直居中用 */
+}
+.copyright .copyright-c .left {
+    float: left;
+    height: 60px;
+}
+.copyright .copyright-c .lagou {
+    float: left;
+    /* 别忘了浮动：1.取消空白折叠2.变得可以设置宽高 */
+    margin-right: 5px;
+}
+.copyright .copyright-c .ICP {
+    float: left;
+    /* 别忘了浮动：1.取消空白折叠2.变得可以设置宽高 */
+    margin-right: 21px;
+}
+.copyright .copyright-c .anbei {
+    float: left;
+    /* 别忘了浮动：1.取消空白折叠2.变得可以设置宽高 */
+    position: relative;
+    padding-left: 20px;
+    margin-right: 19px;
+}
+.copyright .copyright-c .anbei i {
+    position: absolute;
+    left:0;
+    top:22px;
+    width: 14px;
+    height: 16px;
+    background: url(../limages/sprite_02.png) no-repeat -151px -184px;
+}
+.copyright .copyright-c .left .jubao {
+    float: left;
+    position: relative;
+    width: 136px;
+    height: 48px;
+    border: 1px #D5DADF solid;
+    padding-top: 10px;
+    padding-left: 50px;
+    font-size: 12px;
+}
+.copyright .copyright-c .left .jubao span {
+    display: block;
+    line-height: 14px;
+}
+.copyright .copyright-c .left .jubao i {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 20px;
+    height: 24px;
+    background: url(../limages/sprite_02.png) no-repeat -132px -20px;
+}
+.copyright .copyright-c .icon {
+    float: right;
+    width: 198px;
+    height: 60px;
+    background: url(../limages/footer_lagou_icon.png) no-repeat left center;
+}

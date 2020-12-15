@@ -1,0 +1,21 @@
+/* 初始化样式 （文字）*/
+body {
+    font-size: 14px;
+    font-family: "Hiragino Sans GB","Microsoft Yahei","SimSun",Arial,"Helvetica Neue",Helvetica;
+    color: #333;
+}
+a {
+    color: #333333;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color:#00a57f;
+}
+
+/* 公共样式 */
+/* 版心 */
+.inner-c {
+    width: 1200px;
+    margin: 0 auto;
+}

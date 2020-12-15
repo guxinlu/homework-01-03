@@ -1,0 +1,30 @@
+.header-bottom {
+    height: 80px;
+    line-height: 80px;
+    background-color: #FFFFFF;
+}
+.header-bottom .header-bottom-c {
+    height: 80px;
+}
+.header-bottom .header-bottom-c .logo {
+    float: left;
+}
+.header-bottom .header-bottom-c .logo a {
+    display: block;
+    width: 115px;
+    height: 20px;
+    margin: 30px 129px 30px 0;
+    background: url(../images/logo.png) no-repeat 0 0;
+    text-indent: -999px;
+    overflow: hidden;
+}
+.header-bottom .header-bottom-c .phone-nav {
+    float: left;
+    margin: 30px 0 30px 14px;
+}
+.header-bottom .header-bottom-c .phone-nav a {
+    float: left;
+    line-height: 20PX;
+    margin-right: 36px;
+    font-size: 16px;
+}

@@ -1,0 +1,55 @@
+.header-top {
+    height: 40px;
+    line-height: 40px;
+    background-color: #FAFAFC;
+    font-size: 12px;
+}
+.header-top .header-top-c {
+    height: 40px;
+}
+/* left */
+.header-top .header-top-c .left {
+    float: left;
+}
+.header-top .header-top-c .left ul li {
+    float: left;
+}
+.header-top .header-top-c .left ul li a {
+    margin-right: 45px;
+}
+/* right */
+.header-top .header-top-c .right {
+    float: right;
+}
+.header-top .header-top-c .right a {
+    float: left;
+    position: relative;
+    margin-right: 39px;
+}
+.header-top .header-top-c .right a.zhuce {
+    margin-right: 20px;
+}
+.header-top .header-top-c .right a span.tips {
+    position: relative;
+    z-index: 999;
+    left: 4px;
+    margin-top: -6.5px;
+    margin-right: 10px;
+    width: 32px;
+    height: 13px;
+    background-color: #FF2626;
+    font-size: 12px;
+    color: #fff;
+}
+.triangle {
+    position: absolute;
+    z-index: 0;
+    top: 2px;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border-right: 5px solid#FF2626;
+    border-left: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+} 

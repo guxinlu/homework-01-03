@@ -1,0 +1,85 @@
+/* 顶部 */
+.hot-recruit .detail ul li .top {
+    height: 105px;
+    border-bottom: 1px dashed #E1E1E1;
+}
+.hot-recruit .detail ul li .top .position {
+    height: 22px;
+    line-height: 22px;
+}
+.hot-recruit .detail ul li .top .position .name{
+    float: left;
+    max-width: 120px;
+    height: 22px;
+    font-size: 16px;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.hot-recruit .detail ul li .top  .position .time{
+    float: left;
+    font-size: 14px;
+    color: #999999;
+}
+.hot-recruit .detail ul li .top  .position .chat-me{
+    float: left;
+    height: 16px;
+    width: 16px;
+    margin-top: 3px;
+    /* 用margin-top使底边对齐 */
+    background:url(../limages/icon_chat.png) no-repeat;
+}
+.hot-recruit .detail ul li .top  .position .salary{
+    float: right;
+    height: 22px;
+    line-height: 22px;
+    color: #FA6041;
+}
+ .hot-recruit .detail ul li .top  .info {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    color: #777777;
+}
+.hot-recruit .detail ul li .top  .label {
+    height: 28px;
+    margin-bottom: 20px;
+}
+.hot-recruit .detail ul li .top  .label span {
+    float: left;
+    width: 71px;
+    height: 26px;
+    border: 1px solid #F0F0F0;
+    margin-right: 10px;
+    border-radius: 3px;
+    line-height: 26px;
+    text-align: center;
+    color: #999;
+}
+/* 底部 */
+.hot-recruit .detail ul li .bottom {
+    height: 40px;
+    margin-top: 18px;
+}
+.hot-recruit .detail ul li .bottom dt {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 14px;
+}
+.hot-recruit .detail ul li .bottom dt img {
+    width: 40px;
+    height: 40px;
+}
+.hot-recruit .detail ul li .bottom dd {
+    float: left;
+    line-height: 20px;
+    /* line-height一般给最文字的外层,会继承下去 */
+}
+.hot-recruit .detail ul li .bottom dd h4{
+    color: #555;
+}
+.hot-recruit .detail ul li .bottom dd p{
+    color: #999;
+} 

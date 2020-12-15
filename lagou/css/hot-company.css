@@ -1,0 +1,55 @@
+.content .hot-company .detail ul li {
+    width: 260px;
+    height: 248px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.content .hot-company .detail ul li .top {
+    width: 260px;
+    height: 181px;
+    border-bottom: 1px dashed #E1E1E1;
+    text-align: center;
+    line-height: 20px;
+    /* 最外层先设置text-align这里设置完之后，后边就不用每个都用margin的auto居中了; */
+}
+.content .hot-company .detail ul li .top .company-logo {
+    height: 80px;
+}
+.content .hot-company .detail ul li .top .company-logo img {
+    width: 80px;
+    height: 80px;
+}
+.content .hot-company .detail ul li .top .info {
+    max-width: 247px;
+    margin-top: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content .hot-company .detail ul li .bottom {
+    width: 241px;
+    height: 30px;
+    margin: 18px auto 0;
+    text-align: center;
+}
+.content .hot-company .detail ul li .bottom a {
+    float: left;
+    height: 30px;
+    width: 75px;
+    border-right: 1px #e1e1e1 solid;
+}
+.content .hot-company .detail ul li .bottom a p {
+    margin-bottom: 7px;
+}
+.content .hot-company .detail ul li .bottom .item3 {
+    border-right: 0px;
+}
+.content .hot-company .detail ul li .bottom a .data {
+    line-height: 14px;
+    color:#00a57f;
+}
+.content .hot-company .detail ul li .bottom a .name {
+    font-size: 12px;
+    line-height: 12px;
+    color: #999;
+}

@@ -1,0 +1,48 @@
+.product {
+    height: 176px;
+    background-color: #FFFFFF;
+}
+.product .product-c {
+    padding-top: 6px;
+    height: 170px;
+}
+.product .product-c ul {
+    width: 1240px;
+    overflow: hidden;
+}
+.product .product-c ul li {
+    float: left;
+    width: 244px;
+    height: 140px;
+    margin-right: 5px;
+    background-color: #F9F9F9;
+}
+.product .product-c ul :last-child {
+    margin-right: 0;
+}
+.product .product-c ul li.four .small {
+    position: relative;
+    float: left;
+    width: 122px;
+    height: 70px;
+    cursor: pointer;
+}
+.product .product-c ul li.four .small span {
+    display: block;
+    position: absolute;
+    top: 44px;
+    right: 37px;
+    margin: 0 auto;
+}
+.product .product-c ul li.four .small.item3 span, .product .product-c ul li.four .small.item4 span {
+    right: 31px;
+}
+
+.product .product-c ul li.four .small img {
+    position: absolute;
+    top: 15px;
+    left: 49px;
+    height: 15px;
+    width: 24px;
+    height: 24px;
+}

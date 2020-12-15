@@ -1,0 +1,91 @@
+.phone {
+    height: 470px;
+    background-color: #F5F5F5;
+    min-width: 1240px;
+}
+.phone .phone-c {
+    padding-top: 46px;
+}
+.phone .phone-c .phone-top {
+    height: 46px;
+}
+.phone .phone-c .phone-top i {
+    float: left;
+    line-height: 24px;
+    font-size: 25px;
+}
+.phone .phone-c .phone-top span {
+    width: 41px;
+    height: 20px;
+    float: right;
+    background: url(../images/grey\ right.png) no-repeat right center;
+    background-size: 8px 14px;
+    line-height: 20px;
+}
+.phone .phone-c .phone-bottom {
+    width: 1240px;
+    height: 378px;
+}
+.phone .phone-c .phone-bottom ul li {
+    float: left;
+    width: 243px;
+    height: 338px;
+    margin-right: 6px;
+    background-color: white;
+}
+
+.phone .phone-c .phone-bottom ul li:last-child {
+    margin-right: 0;
+}
+.phone .phone-c .phone-bottom ul li .phone-detail-top {
+    position: relative;
+    height: 240px;
+    padding-top: 17px;
+}
+.phone .phone-c .phone-bottom ul li .phone-detail-top a {
+    position: absolute;
+    left: 31px;
+    top: 39px;
+    width: 180px;
+    height: 180px;
+}
+.phone .phone-c .phone-bottom ul li .phone-detail-top span {
+    display: inline-block;
+    position: absolute;
+    top: -23px;
+    right: -16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #F59646;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.phone .phone-c .phone-bottom ul li .phone-detail-top span.sale {
+    background-color: #F0415F;
+}
+.phone .phone-c .phone-bottom ul li .phone-detail-bottom {
+    height: 82px;
+    text-align: center;
+    cursor: pointer;
+}
+.phone .phone-c .phone-bottom ul li .phone-detail-bottom .name span {
+    line-height: 20px;
+}
+.phone .phone-c .phone-bottom ul li .phone-detail-bottom .time span {
+    line-height: 20px;
+    font-size: 12px;
+    color: #999999;
+}
+.phone .phone-c .phone-bottom ul li .phone-detail-bottom .price span {
+    line-height: 28px;
+    font-size: 16px;
+    color: red;
+}
+.phone .phone-c .phone-bottom ul li .phone-detail-bottom .price i {
+    font-size: 12px;
+    color: red;
+}
+
+

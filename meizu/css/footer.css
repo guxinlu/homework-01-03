@@ -1,0 +1,73 @@
+.footer {
+    height: 183px;
+    background-color: #FAFAFC;
+    min-width: 1240px;
+}
+.footer .footer-c{
+    height: 116px;
+    padding: 35px 0 31px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.footer .footer-c .info {
+    float: left;
+    width: 943px;
+    padding-left: 94px;
+}
+.footer .footer-c .info dl {
+    float: left;
+    width: 56px;
+    padding-right: 179px;
+    text-align: center;
+}
+
+.footer .footer-c .info dl dt {
+    margin-bottom: 12px;
+}
+.footer .footer-c .info dl dd {
+    line-height: 23px;
+    font-size: 12px;
+    color: #666666;
+}
+.footer .footer-c .info dl a {
+    display: block;
+    width: 56px;
+    padding-right: 179px;
+}
+.footer .footer-c .service {
+    float: right;
+    padding-right: 42px;
+    width: 160px;
+    text-align: center;
+}
+.footer .footer-c .service .tel span{
+    line-height: 60px;
+    font-size: 25px;
+    color: #1FA9EB;
+}
+.footer .footer-c .service .online {
+    width: 160px;
+    height: 34px;
+    background-color: #1FA7EA;
+    line-height: 34px;
+    text-align: center;
+}
+.footer .footer-c .service .online a {
+    display: block;
+    width: 111px;
+    margin: 0 auto;
+    color: white;
+}
+.footer .footer-c .service .online a span {
+    font-size: 12px;
+}
+.footer .footer-c .service .online a i {
+    display: inline-block;
+    position: relative;
+    right: 2px;
+    bottom: 4px;
+    width: 18px;
+    height: 18px;
+    border: 1px white solid;
+    border-radius: 11px;
+    line-height: 11px;
+}
